@@ -1,12 +1,13 @@
 fun main() {
-    println(commissionCalculation("Maestro", 50000000, 2500000))
+    println(commissionCalculation("fewfq", 50000000, 250000))
 }
 
 fun commissionCalculation(cardType: String = "VK pay", amountOfPreviousTransfers: Int, transferAmount: Int) =
     when (cardType) {
         "Mastercard", "Maestro" -> commissionForMastercard(amountOfPreviousTransfers, transferAmount)
         "Visa", "Мир" -> commissionForVisa(transferAmount)
-        else -> 0
+        "VK pay" -> 0
+        else -> println("Неверный тип карты")
     }
 
 
