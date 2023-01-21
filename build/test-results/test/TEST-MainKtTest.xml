@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainKtTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-01-20T14:15:33" hostname="NOUT" time="0.013">
+  <properties/>
+  <testcase name="commissionCalculationForElse" classname="MainKtTest" time="0.01"/>
+  <testcase name="commissionCalculationForVisa" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionForVisaDifferent" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionForVisaMinimum" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionCalculationForMaestro" classname="MainKtTest" time="0.001"/>
+  <testcase name="commissionCalculationForMastercard" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionCalculationForMir" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionCalculationForVKPay" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionForMastercardLimitNotExceeded" classname="MainKtTest" time="0.0"/>
+  <testcase name="commissionForMastercardLimitExceeded" classname="MainKtTest" time="0.0"/>
+  <system-out><![CDATA[Неверный тип карты
+Неверный тип карты
+Неверный тип карты
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
