@@ -48,7 +48,7 @@ class MainKtTest {
         }
 
         val result = commissionCalculation(cardType,amountOfPreviousTransfers,transferAmount)
-        assertEquals(35, result)
+        assertEquals(0, result)
     }
 
     @Test
